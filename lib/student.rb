@@ -6,8 +6,8 @@ class Student < User
       @knowlegde = []
   end
 
-  def learn(knowledge)
-    @knowledge << knowledge
+  def learn(string)
+    @knowledge << kstring 
   end
 
   def knowledge

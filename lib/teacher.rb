@@ -9,5 +9,8 @@ class Teacher < User
     "programming computers hacking learning terminal",
     "bash Ruby rvm update certs"]
 
+    def teach 
+      KNOWLEDGE.sample 
+    end 
 
 end
